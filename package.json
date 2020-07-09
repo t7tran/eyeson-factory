@@ -1,0 +1,42 @@
+{
+  "name": "eyeson-factory",
+  "version": "1.5.0",
+  "description": "An adaptor to Eyeson library that allows multiple sessions on the same page",
+  "main": "dist/eyeson-factory.js",
+  "scripts": {
+    "analyze": "source-map-explorer ./dist/eyeson.js*",
+    "build": "webpack --progress --debug --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coolersport/eyeson-factory.git"
+  },
+  "keywords": [
+    "eyeson",
+    "factory"
+  ],
+  "author": "Tien Tran",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coolersport/eyeson-factory/issues"
+  },
+  "homepage": "https://github.com/coolersport/eyeson-factory#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/compat-data": "^7.10.1",
+    "@babel/core": "^7.8.7",
+    "@babel/plugin-transform-modules-commonjs": "^7.8.3",
+    "@babel/plugin-transform-runtime": "^7.8.3",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/preset-env": "^7.8.7",
+    "babel-loader": "^8.0.6",
+    "prettier": "^1.19.1",
+    "source-map-explorer": "^2.4.0",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "eyeson": "1.5.0"
+  }
+}
